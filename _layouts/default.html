@@ -53,7 +53,7 @@
 						<div class="badget" id="github">
 							<a href="http://github.com/dgzzhb">
 							<span class="service">github</span>
-							<span class="info"> </span>
+							<span class="info">10+</span>
 							</a>
 						</div>
 						<div class="badget" id="twt">
@@ -109,12 +109,13 @@
     return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
 };
 
-if(!$.cookie('badget-github'))
+/*if(!$.cookie('badget-github'))
 {
 	url = 'https://api.github.com/legacy/user/search/dgzzhb';
 	$.getJSON(url+"?callback=?", function(data){
 		//var text = data['users'][0]['public_repo_count'] + ' / ' + data['user']['followers_count'];
-		var text = data['data']['users'][0]['followers_count'];
+		//var text = data['data']['users'][0]['followers_count'];
+		var text = data['users'][0]['public_repo_count'];
 		$('#github').find('.info').text(text);
 		$.cookie('badget-github', text, {expires: 7} );
 	});
@@ -135,7 +136,7 @@ if(!$.cookie('badget-feedburner'))
 else
 {
 	$('#feedburner').find('.info').text($.cookie('badget-feedburner'));
-}
+}*/
 </script>
 					
 	</body>

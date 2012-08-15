@@ -52,7 +52,7 @@
 						<div class="badget" id="github">
 							<a href="http://github.com/lzyy">
 							<span class="service">github</span>
-							<span class="info"> </span>
+							<span class="info">10+</span>
 							</a>
 						</div>
 						<div class="badget" id="twt">
@@ -108,7 +108,7 @@
     return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
 };
 
-if(!$.cookie('badget-github'))
+/*if(!$.cookie('badget-github'))
 {
 	url = 'https://api.github.com/legacy/user/search/lzyy';
 	$.getJSON(url+"?callback=?", function(data){
@@ -134,7 +134,7 @@ if(!$.cookie('badget-feedburner'))
 else
 {
 	$('#feedburner').find('.info').text($.cookie('badget-feedburner'));
-}
+}*/
 </script>
 
 	</body>
