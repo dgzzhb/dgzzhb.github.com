@@ -1,0 +1,8 @@
+---
+layout: post
+title: Test
+category: tech
+---
+p(date). 2012-08-15
+
+test 001
