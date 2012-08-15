@@ -51,7 +51,7 @@
 				<div id="footer">
 					<div id="feed">
 						<div class="badget" id="github">
-							<a href="http://github.com/lzyy">
+							<a href="http://github.com/dgzzhb">
 							<span class="service">github</span>
 							<span class="info"> </span>
 							</a>
@@ -69,7 +69,7 @@
 							</a>
 						</div>
 					</div>
-					<span style="color:#bbb;font-size:12px">make the world a little better and easier</span>
+					<span style="color:#bbb;font-size:12px">Find your inner peace.</span>
 					<p style="clear:both"></p>
 				</div>
 
@@ -111,7 +111,7 @@
 
 if(!$.cookie('badget-github'))
 {
-	url = 'https://api.github.com/legacy/user/search/lzyy';
+	url = 'https://api.github.com/legacy/user/search/dgzzhb';
 	$.getJSON(url+"?callback=?", function(data){
 		//var text = data['users'][0]['public_repo_count'] + ' / ' + data['user']['followers_count'];
 		var text = data['data']['users'][0]['followers_count'];
