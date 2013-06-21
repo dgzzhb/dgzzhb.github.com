@@ -1,11 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
- 
-{% for post in site.posts %}
-  {% include sitemap-url.html %}
-{% endfor %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-{% for post in site.pages %}
-  {% include sitemap-url.html %}
-{% endfor %}
+<url>
+  <loc>http://tzheng.us/</loc>
+  <lastmod>2013-06-21T02:47:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/guestbook/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/categories/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/links/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/feed/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2013/06/mapping-between-languages/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2013/06/talk-much-talk-foolish/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2013/04/bayes-theorem/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2013/04/pagetable-frame/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2013/01/dongyang/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2012/12/new-year-2012/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2012/12/her-majesty-Ding/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2012/12/doomsday/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2012/12/cohesion-and-coupling/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/cn/2012/08/new-start/</loc>
+  <lastmod>2013-06-21T03:05:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/guestbook/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/categories/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/links/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/feed/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2013/06/talk-much-talk-foolish/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2013/04/bayes-theorem/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2013/04/pagetable-frame/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2013/01/dongyang/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2012/12/new-year-2012/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2012/12/her-majesty-Ding/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2012/12/doomsday/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2012/12/cohesion-and-coupling/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tzheng.us/en/2012/08/new-start/</loc>
+  <lastmod>2013-06-21T03:05:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
