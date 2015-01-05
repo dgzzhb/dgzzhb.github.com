@@ -1,5 +1,5 @@
 # Site settings
-title: Tian Zheng's Website
+title: Tian Zheng
 email: TianZheng@CMU.edu
 description: "Learning by doing."
 
@@ -31,7 +31,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 4600 Bayard St. #107
+  - line: 4600 Bayard St. Apt. 107
   - line: Pittsburgh, PA 15213
   
 # Credits content
