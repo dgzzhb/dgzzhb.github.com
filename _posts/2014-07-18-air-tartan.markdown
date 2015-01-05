@@ -5,6 +5,7 @@ date: 2014-07-18
 img: cabin.png
 alt: image-alt
 project-date: September 2014
+client: Apple
 category: Mobile Game
 description:
 
