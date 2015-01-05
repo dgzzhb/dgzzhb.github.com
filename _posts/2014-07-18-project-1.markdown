@@ -4,9 +4,13 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+project-date: September 2014
+client: Air Tartan - a Motion Control Adventure Game
+category: Mobile Development
+description:
+- Led the team as product manager using Agile Methodology and Git
+- Won “Audience Choice” Award at CMU iOS Hackathon hold by Apple
+- Developed the entire project using SpriteKit and Swift over one weekend
+- Combined touching with CoreMotion detection for better user experience
 
 ---
