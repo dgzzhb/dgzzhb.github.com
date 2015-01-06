@@ -5,8 +5,8 @@ date: 2014-07-15
 img: ldssa.png
 alt: image-alt
 project-date: December 2013
-client: Start Bootstrap
+client: Truman LDSSA
 category: Web Development
-description: LDS Student Association (also known as the Latter-day Saint Student Association or the LDSSA) is an organization affiliated with The Church of Jesus Christ of Latter-day Saints which offers Latter-day Saint university and college students and others social, religious, and recreational activities.
+description: This is the website I built for the Latter-day Saint Student Association at Truman State University. The front end uses HTML5 + CSS3 and some Ajax for data presentation. The back end of this website is supported by PHP and MySQL. There is also integrated prevention of HTML and SQL injection.
 
 ---
