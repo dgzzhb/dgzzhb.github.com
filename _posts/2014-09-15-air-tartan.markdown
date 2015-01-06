@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2014-09-15
 img: airtartan.png
 alt: image-alt
 project-date: September 2014
