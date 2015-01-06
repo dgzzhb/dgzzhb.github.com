@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-16
+date: 2014-07-15
 img: ldssa.png
 alt: image-alt
 project-date: December 2013
